@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkaem_maven_archetype=self.webpackChunkaem_maven_archetype||[]).push([[602],{602:function(e,t,a){a.r(t),a.d(t,{getData:function(){return c},setData:function(){return u}});let n="Initial Data";const c=()=>n,u=e=>{n=e}}}]);

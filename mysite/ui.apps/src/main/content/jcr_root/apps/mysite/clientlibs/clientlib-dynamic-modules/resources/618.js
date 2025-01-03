@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkaem_maven_archetype=self.webpackChunkaem_maven_archetype||[]).push([[618],{618:function(e,n,t){t.r(n),t.d(n,{helloworld:function(){return a}});const a=()=>{console.log("********* Hello World *********");const e=document.createElement("h4");e.textContent="This is a dynamically appended h4 tag",document.body.appendChild(e)}}}]);
