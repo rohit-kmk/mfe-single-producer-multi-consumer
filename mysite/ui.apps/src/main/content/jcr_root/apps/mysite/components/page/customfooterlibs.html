@@ -18,4 +18,8 @@
 </sly>
 <div id="dataDisplay">Current Data: Loading...</div>
 <button id="updateData">Update Data</button>
+<sly data-sly-use.testmodel="com.mysite.core.models.TestModel">
+    ${testmodel.message}
+    <div class="page_model_json" data-json="${testmodel.modelJson}" />
+</sly>
 
