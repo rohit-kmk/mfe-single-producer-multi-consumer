@@ -629,7 +629,7 @@ import jQuery from "jquery";
 console.log("hello world  main");
 
 import("app/helloworld").then((module) => {
-  module.helloworld();  // Calls the imported function
+  module.helloworld();  // Calls the imported function using module federation
 }).catch((error) => {
   console.error("Error loading the module:", error);
 });
@@ -638,6 +638,6 @@ import("app/helloworld").then((module) => {
 import('app/data')
 .then(({ getData, setData }) => {
 	console.log('Init data', getData());
-	setData('hello')
+	setData('hello')  // Calls the imported function using module federation
 	console.log('Updated data', getData());
 });
